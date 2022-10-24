@@ -243,3 +243,29 @@ h1{
 .inline-block{
     display: inline-block;
 }
+
+/* ------------ */
+
+
+.margine{
+    margin: 10rem auto;
+}
+
+
+
+
+
+/* ---------------- */
+
+
+
+
+
+
+
+
+.sfondo-footer{
+
+    height: 50vh;
+    background-color: black;
+}
