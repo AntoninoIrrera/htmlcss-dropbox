@@ -86,14 +86,13 @@ h1{
 
 /* ------------------ */
 
-.altro-contenuto{
+.più-contenuti{
     width: 60%;
-    margin: 0 auto;
+    margin: 10rem auto;
 }
 
 h2{
 
-    margin-top: 10rem;
     font-size: 2.5rem;
 
 }
@@ -121,3 +120,33 @@ h2{
     background-color: red;
     height: 150px;
 }
+
+
+/* ----------------- */
+
+
+.partner{
+
+    width: 60%;
+    float: left;
+}
+
+.content-partner{
+
+    float: left;
+ 
+    width:calc(100% / 3);
+
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+
+.clearfix::after{
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* --------------- */
