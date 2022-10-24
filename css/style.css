@@ -8,6 +8,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* --------------- */
 
 header{
     display: flex;
@@ -39,10 +40,46 @@ header{
     font-size: 1.1rem;
 }
 
+/* ------------------------ */
 
 
+.introduzione{
+    background-color: #b4d0e7;
+    height: 80vh;
+}
 
-.main{
-    background-color: lightblue;
-    height: 250px;
+.contenuto{
+    width: 70%;
+    margin: 0 auto;
+    /* height: 100%; */
+    position: relative;
+}
+
+h1{
+    font-size: 5rem;
+    padding-top: 2rem;
+    font-weight: 800;
+}
+
+.junbo{
+    width: 75%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.testo{
+
+    margin-top: 3rem;
+    width: 25%;
+}
+
+.prova-gratuita{
+    margin-top: 3rem;
+
+}
+
+.fa-arrow-down{
+    font-size: 3rem;
+    margin-top: 6rem;
 }
