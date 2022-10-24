@@ -269,3 +269,12 @@ h1{
     height: 50vh;
     background-color: black;
 }
+
+ul{
+    color: white;
+    list-style-type: none;
+}
+
+.down-footer{
+    color: #999999;
+}
