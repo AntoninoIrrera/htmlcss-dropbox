@@ -163,3 +163,70 @@ h1{
 .wrap{
     flex-wrap: wrap;
 }
+
+
+/* ------------ */
+
+
+.sfondo{
+
+    height: 60vh;
+    background-color: #f5f5f5;
+}
+
+
+
+
+.contenitore{
+    width:calc(100% /2);
+    height:calc(100% /2);
+}
+
+.icon{
+    width: 50%;
+}
+
+.scritte{
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.verde{
+    background-color: #a2d39b ;
+}
+
+.baige{
+
+    background-color: #61082b;
+}
+
+.celeste-scruro {
+
+    background-color: #0093ce ;
+}
+
+.rosso-chiaro {
+
+    background-color: #ff1c1c;
+}
+
+.rosso {
+
+    background-color: #d5001f;
+}
+.celeste {
+
+    background-color: #b4d0e7 ;
+}
+.blu {
+
+    background-color: #0d2481 ;
+}
+.giallo {
+
+    background-color: #ffd830 ;
+}
+
+/* ----------- */
