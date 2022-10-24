@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    padding: 1.5rem 2rem;
+}
+
+.logo{
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+
+.collegamenti{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+
+.bottone{
+
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: #0061ff;
+    border: none;
+    font-size: 1.1rem;
+}
+
+
+
+
+.main{
+    background-color: lightblue;
+    height: 250px;
+}
