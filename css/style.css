@@ -88,11 +88,12 @@ h1{
 
 .più-contenuti{
     width: 60%;
-    margin: 10rem auto;
+    margin: 0 auto;
 }
 
 .titoletto{
 
+    margin-top: 10rem;
     font-size: 2.5rem;
 
 }
@@ -124,6 +125,9 @@ h1{
 
 /* ----------------- */
 
+.margine-top{
+    margin-top: 10rem;
+}
 
 .partner{
 
@@ -169,7 +173,7 @@ h1{
 
 
 .sfondo{
-
+    margin-top: 10rem;
     height: 60vh;
     background-color: #f5f5f5;
 }
@@ -230,3 +234,12 @@ h1{
 }
 
 /* ----------- */
+
+.colore-sfondo{
+    height: 40vh;
+    background-color: #b4d0e7;
+}
+
+.inline-block{
+    display: inline-block;
+}
