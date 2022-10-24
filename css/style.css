@@ -167,12 +167,31 @@ h1{
 /* --------------- */
 
 .spiegazioni{
-    width: 60%;
+    width: 100%;
 }
 
-.colonne{
+h3{
+    font-size: 1.5rem;
+    margin: 1rem 0 1.5rem 0;
+}
 
-    width:calc(100% / 3);
+
+
+.margine-bottom{
+
+    margin-bottom: 3rem;
+}
+.colonne-margine{
+    
+    width:calc((100% / 3) - 3rem);
+}
+
+.margine-right{
+    margin-right: 3rem;
+}
+
+.margin-top-little{
+    margin-top: 3rem;
 }
 
 .wrap{
@@ -206,6 +225,11 @@ h1{
     justify-content: center;
     width: 30%;
     margin: 0 auto;
+}
+
+.colonne {
+
+    width: calc(100% / 3);
 }
 
 .verde{
