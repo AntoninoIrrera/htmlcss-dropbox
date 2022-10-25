@@ -8,12 +8,21 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+main{
+    padding-top: 5rem;
+}
+
 /* --------------- */
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 3;
 }
 
 .navbar{
