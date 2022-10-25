@@ -100,14 +100,66 @@ h1{
 
 .fatturazione{
     display: inline-block;
-    margin: 2rem 0;
+    margin: 3rem 0;
     margin-right: 1rem;
 }
 
 .card{
   width:calc((100% / 3) - 3rem);  
   height: 110vh;
-  background-color: red;
+    border: #dcdcde solid 1px;
+    text-align: center;
+}
+
+.contenitore-card{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.bottone-card{
+
+    color: white;
+    padding: 0.7rem 0;
+    background-color: #0061ff;
+    border: none;
+    width: 100%;
+    font-size: 1.1rem;
+
+    margin: 1.5rem 0;
+}
+
+.riga-card{
+    border-top: #dcdcde solid 1px;
+    width: 100%;
+}
+
+.fa-check{
+    color: blue;
+}
+
+.riga-card-down{
+    border-top: #dcdcde solid 1px;
+    width: 20%;
+
+}
+
+.margine-soldi{
+    margin-bottom: 0.5rem;
+}
+
+.margine-card{
+    margin: 2rem 0 1rem 0;
+}
+
+.titolo-card{
+    font-size: 1.5rem;
+}
+
+
+
+article>i.fa-user{
+    margin: 1rem 0 ;
 }
 
 .flex{
@@ -118,7 +170,7 @@ h1{
 .plus-card{
     width: 100%;
     margin: 3rem 0;
-    background-color: red;
+    border: #dcdcde solid 1px;
     height: 30vh;
 }
 
@@ -170,7 +222,7 @@ h1{
     width: 100%;
 }
 
-h3{
+.titoli-spiegazioni{
     font-size: 1.5rem;
     margin: 1rem 0 1.5rem 0;
 }
