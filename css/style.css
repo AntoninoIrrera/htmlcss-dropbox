@@ -309,6 +309,27 @@ h3{
     background-color: #b4d0e7;
 }
 
+.p-relative{
+    position: relative;
+}
+
+.titolo-down{
+    color: #61083d;
+    font-size: 2.5rem;
+    width: 50%;
+    margin-top: 7rem;
+}
+
+.tasto-prova{
+    padding: 0.5rem 3rem; 
+    border: none;
+    font-size: 1.2rem;
+
+    position: absolute;
+    right: 10%;
+    top: 55%;
+}
+
 .inline-block{
     display: inline-block;
 }
