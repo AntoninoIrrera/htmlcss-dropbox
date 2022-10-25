@@ -146,7 +146,7 @@ h1{
 }
 
 .margine-top-bottom{
-    margin: 2rem 0;
+    margin: 2.5rem 0;
 }
 
 .trova{
@@ -341,7 +341,15 @@ h3{
     margin: 10rem auto;
 }
 
+.f-bold{
+    font-weight: 600;
+}
 
+.fa-angle-down{
+    position: absolute;    
+    right: 5%;
+
+}
 
 
 
