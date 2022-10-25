@@ -129,6 +129,15 @@ h1{
     margin: 1.5rem 0;
 }
 
+.margine-left-card{
+    margin-left: 0.3rem;
+}
+
+.flex-card{
+    display: flex;
+    align-items: baseline;
+}
+
 .riga-card{
     border-top: #dcdcde solid 1px;
     width: 100%;
@@ -158,7 +167,7 @@ h1{
 
 
 
-article>i.fa-user{
+article>i{
     margin: 1rem 0 ;
 }
 
@@ -172,6 +181,30 @@ article>i.fa-user{
     margin: 3rem 0;
     border: #dcdcde solid 1px;
     height: 30vh;
+    text-align: center;
+}
+
+.margine-plus-card{
+    margin: 1rem 0 2rem 0;
+}
+
+.contenitore-card-plus {
+    width: 90%;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.plus-card-sx{
+    width: 70%;
+}
+
+.plus-card-dx{
+
+    width: 25%;
 }
 
 
