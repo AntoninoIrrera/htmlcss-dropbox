@@ -364,17 +364,38 @@ h3{
 
 .sfondo-footer{
 
-    height: 50vh;
+    height: 65vh;
     background-color: black;
+}
+
+
+
+.f-size{
+    font-size: 1.5rem;
 }
 
 ul{
     color: white;
     list-style-type: none;
+    margin-top: 6rem;
 }
 
 .down-footer{
     color: #999999;
+}
+
+li{
+    margin: 0.7rem 0;
+}
+
+.riga-footer{
+    border-top: #d0d0d3 solid 1px;
+    width: 10% ;
+    margin: 7rem 0 5rem 0;
+}
+
+.fa-earth-africa{
+    margin-right: 0.2rem;
 }
 
 /* ------------- */
