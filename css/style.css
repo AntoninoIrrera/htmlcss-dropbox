@@ -30,6 +30,36 @@ main{
     margin: 0 auto;
 }
 
+.bottone {
+
+    color: white;
+    background-color: #0061ff;
+    border: none;
+}
+
+
+.contenuto {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+
+article>i {
+    margin: 1rem 0;
+}
+
+.titoletto {
+
+    font-size: 2.5rem;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* --------------- */
 
@@ -62,13 +92,12 @@ header{
     margin: 1rem;
 }
 
-.bottone{
 
-    color: white;
+
+.style-bottone{
     padding: 0.5rem 1rem;
-    background-color: #0061ff;
-    border: none;
     font-size: 1.1rem;
+    
 }
 
 /* ------------------------ */
@@ -82,12 +111,7 @@ header{
     height: 80vh;
 }
 
-.contenuto{
-    width: 70%;
-    margin: 0 auto;
-    height: 100%;
-    position: relative;
-}
+
 
 h1{
     font-size: 5rem;
@@ -122,11 +146,6 @@ h1{
 
 
 
-.titoletto{
-
-    font-size: 2.5rem;
-
-}
 
 .fatturazione{
     display: inline-block;
@@ -149,10 +168,9 @@ h1{
 
 .bottone-card{
 
-    color: white;
+    
+    
     padding: 0.7rem 0;
-    background-color: #0061ff;
-    border: none;
     width: 100%;
     font-size: 1.1rem;
 
@@ -197,14 +215,6 @@ h1{
 
 
 
-article>i{
-    margin: 1rem 0 ;
-}
-
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
 
 .plus-card{
     width: 100%;
